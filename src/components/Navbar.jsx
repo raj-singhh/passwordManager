@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
         </ul> */}
-        <button className="ring-white ring-1 h-10 px-4 flex items-center gap-2 rounded-full bg-green-500 text-white font-medium hover:bg-green-600 transition">
+        <button onClick={()=>{window.open("https://github.com/raj-singhh", "_blank")}} className="ring-white ring-1 h-10 px-4 flex items-center gap-2 rounded-full bg-green-500 text-white font-medium hover:bg-green-600 transition">
           <img src="icons/github.svg" alt="GitHub" className="w-6 h-6" />
           <span className='font-bold'>GitHub</span>
         </button>
